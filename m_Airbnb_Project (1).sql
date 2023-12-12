@@ -1,6 +1,6 @@
-drop database if exists `my_first_project`;
-create database `my_first_project`;
-use M_Airbnb_project;
+drop database if exists `Airbnb_project`;
+create database `Airbnb_project`;
+use Airbnb_project;
 
 # Import CVS file as tables Below
 select * from airbnb_price;
