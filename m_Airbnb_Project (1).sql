@@ -14,7 +14,6 @@ join airbnb_price ap on arl.listing_id = ap.listing_id;
 #qst 1 Are There Differences In The Appartment 
 select distinct description from airbnb_room_type art  join airbnb_last_review arl on art.`listing_id` = arl.`listing_id`
 join airbnb_price ap on arl.`listing_id` = ap.`listing_id`;
-# The above description are the difference in appartment
 
 #qst 2 Which Apt is best for Rent and Why ? 
 select distinct price, description, room_type from airbnb_room_type art  join airbnb_last_review arl on art.`listing_id` = arl.`listing_id`
